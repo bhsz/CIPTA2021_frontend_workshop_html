@@ -1,0 +1,29 @@
+#body {
+	background-color: lightskyblue;
+}
+
+#header {
+	color: grey;
+	text-align: left;
+}
+
+.main {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.add-item {
+	text-align: center;
+}
+
+.add-item input {
+	width: 50px;
+}
+
+.clear {
+	margin: 10px auto;
+}
+
+button {
+	cursor: pointer;
+}

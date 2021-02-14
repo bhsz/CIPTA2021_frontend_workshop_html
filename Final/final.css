@@ -1,0 +1,33 @@
+body {
+	background-color: lightskyblue;
+}
+
+#header {
+	text-align: center;
+	color: blue;
+}
+
+.main {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.add-item {
+	text-align: center;
+}
+
+.add-item input {
+	width: 360px;
+}
+
+.clear {
+	margin: 10px auto;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:hover {
+	color: red;
+}

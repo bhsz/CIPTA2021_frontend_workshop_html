@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="final.css" />
+		<script src="final.js"></script>
+		<title>Shopping List</title>
+	</head>
+	<body onload="addDate()">
+		<h1 id="header">Shopping List</h1>
+		<div class="main">
+			<ul id="shopping-list"></ul>
+			<div class="add-item">
+				<label for="item">Item: </label>
+				<input type="text" id="item" />
+				<button type="button" onclick="addItem()">Add</button>
+				<div class="clear">
+					<button type="button" onclick="clearList()">Clear</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

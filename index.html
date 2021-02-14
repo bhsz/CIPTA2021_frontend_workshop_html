@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="script.js"></script>
+		<!-- TODO: Change title -->
+		<title>Potatoes</title>
+	</head>
+	<body onload="addDate()">
+		<h5 id="header">Tomatoes<span id="date"></span></h1>
+		<div class="main">
+			<ul id="shopping-list"></ul>
+			<div class="add-item">
+				<input type="text" id="item" />
+				<button type="button" onclick="addItem()">Add</button>
+				<div class="clear">
+					<button type="button" onclick="clearList()"></button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
