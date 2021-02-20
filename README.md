@@ -29,4 +29,6 @@ It's a good idea to familiarise yourself with [Javascript basics](https://www.w3
 
 1. Take a look at the function _addDate_ in script.js, it changes the content of the element with ID date in the DOM. It is currently set to always use 19/2, this is clearly not practical. **Using the predefined Date class in Javascript, change the implementation of _addDate_ so that it will always use the correct date.**
 
+Link to sample answers : https://codesandbox.io/s/cipta2021frontendhtmlfinal-0snb6
+
 > **Want to learn more? Try [FreeCodeCamp](https://www.freecodecamp.org) !**
